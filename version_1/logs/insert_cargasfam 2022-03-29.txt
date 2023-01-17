@@ -1,0 +1,10 @@
+El legajo 28 ya contiene un familiar con el numero de documento 20903275823.0. No se realiza el insert.
+El legajo 28 ya contiene un familiar con el numero de documento 27913275823.0. No se realiza el insert.
+El legajo 46 ya contiene un familiar con el numero de documento 27905873211.0. No se realiza el insert.
+El legajo 100 ya contiene un familiar con el numero de documento 21975476310.0. No se realiza el insert.
+Faltan campos obligatorios en legajo 217. No se realiza el insert.
+Faltan campos obligatorios en legajo 226. No se realiza el insert.
+El legajo 460 ya contiene un familiar con el numero de documento 28990870113.0. No se realiza el insert.
+El legajo 487 ya contiene un familiar con el numero de documento 27908326521.0. No se realiza el insert.
+El legajo 595 ya contiene un familiar con el numero de documento 30892581473.0. No se realiza el insert.
+El legajo 613 ya contiene un familiar con el numero de documento 24954131618.0. No se realiza el insert.

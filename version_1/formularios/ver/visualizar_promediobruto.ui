@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>frm_ver_prombruto</class>
+ <widget class="QDialog" name="frm_ver_prombruto">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>534</width>
+    <height>270</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Ver promedios brutos</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../../img/windows/main.svg</normaloff>../../img/windows/main.svg</iconset>
+  </property>
+  <widget class="QTableWidget" name="tv_promediobruto">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>40</y>
+     <width>511</width>
+     <height>192</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_cerrar">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>240</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Cerrar</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl_0">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>41</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Año:</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>10</y>
+     <width>91</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox_2">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>10</y>
+     <width>91</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl_1">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>10</y>
+     <width>41</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Mes:</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_actualiza">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>240</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Actualizar</string>
+   </property>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>tv_promediobruto</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

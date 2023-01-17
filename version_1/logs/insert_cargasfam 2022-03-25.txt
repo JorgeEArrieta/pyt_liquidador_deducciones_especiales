@@ -1,0 +1,2 @@
+Faltan campos obligatorios en legajo 217. No se realiza el insert.
+Faltan campos obligatorios en legajo 226. No se realiza el insert.

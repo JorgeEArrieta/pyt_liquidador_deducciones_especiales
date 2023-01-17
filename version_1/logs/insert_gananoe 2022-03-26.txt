@@ -1,0 +1,26 @@
+Faltan campos obligatorios en legajo 21976541353. No se realiza el insert.
+Faltan campos obligatorios en legajo 21976541353. No se realiza el insert.
+Faltan campos obligatorios en legajo 21976541353. No se realiza el insert.
+Faltan campos obligatorios en legajo 21976541353. No se realiza el insert.
+Faltan campos obligatorios en legajo 21976541353. No se realiza el insert.
+Faltan campos obligatorios en legajo 21976541353. No se realiza el insert.
+Faltan campos obligatorios en legajo 21976541353. No se realiza el insert.
+Faltan campos obligatorios en legajo 21976541353. No se realiza el insert.
+Faltan campos obligatorios en legajo 21976541353. No se realiza el insert.
+Faltan campos obligatorios en legajo 21976541353. No se realiza el insert.
+Faltan campos obligatorios en legajo 21976541353. No se realiza el insert.
+Faltan campos obligatorios en legajo 21976541353. No se realiza el insert.
+El legajo 145 ya contiene un registro para el cuit 2021, mes Frigorifico. No se realiza el insert.
+El legajo 28 ya contiene un registro para el cuit 2021, mes Laboratorio. No se realiza el insert.
+El legajo 28 ya contiene un registro para el cuit 2021, mes Laboratorio. No se realiza el insert.
+El legajo 28 ya contiene un registro para el cuit 2021, mes Laboratorio. No se realiza el insert.
+El legajo 28 ya contiene un registro para el cuit 2021, mes Laboratorio. No se realiza el insert.
+El legajo 28 ya contiene un registro para el cuit 2021, mes Laboratorio. No se realiza el insert.
+El legajo 28 ya contiene un registro para el cuit 2021, mes Laboratorio. No se realiza el insert.
+El legajo 28 ya contiene un registro para el cuit 2021, mes Laboratorio. No se realiza el insert.
+El legajo 28 ya contiene un registro para el cuit 2021, mes Laboratorio. No se realiza el insert.
+El legajo 28 ya contiene un registro para el cuit 2021, mes Laboratorio. No se realiza el insert.
+El legajo 28 ya contiene un registro para el cuit 2021, mes Laboratorio. No se realiza el insert.
+El legajo 28 ya contiene un registro para el cuit 2021, mes Laboratorio. No se realiza el insert.
+El legajo 28 ya contiene un registro para el cuit 2021, mes Laboratorio. No se realiza el insert.
+Error en la lectura del xml 20993275883. Revisar que exista un legajo asociado para el número de cuil.

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>frm_cfamilia</class>
+ <widget class="QDialog" name="frm_cfamilia">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>332</width>
+    <height>278</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Carga de familia</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="3" column="0">
+    <widget class="QLabel" name="lbl_2">
+     <property name="text">
+      <string>Apellido(s):</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="2" colspan="6">
+    <widget class="QLineEdit" name="txt_nombre"/>
+   </item>
+   <item row="7" column="0" colspan="2">
+    <widget class="QLabel" name="lbl_7">
+     <property name="text">
+      <string>Parentesco:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="0" colspan="3">
+    <widget class="QLabel" name="lbl_6">
+     <property name="text">
+      <string>Porcentaje deducción:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="0" colspan="2">
+    <widget class="QLabel" name="lbl_0">
+     <property name="text">
+      <string>Número de legajo:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="8" column="6">
+    <widget class="QPushButton" name="btn_eliminar">
+     <property name="text">
+      <string>Eliminar</string>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="4" colspan="2">
+    <widget class="QLineEdit" name="lineEdit"/>
+   </item>
+   <item row="8" column="5">
+    <widget class="QPushButton" name="btn_cerrar">
+     <property name="text">
+      <string>Cerrar</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0" colspan="8">
+    <widget class="Line" name="line">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="2" colspan="6">
+    <widget class="QLineEdit" name="txt_apellido"/>
+   </item>
+   <item row="5" column="2">
+    <widget class="QLineEdit" name="txt_desde"/>
+   </item>
+   <item row="6" column="4" colspan="2">
+    <widget class="QLineEdit" name="txt_porcentaje"/>
+   </item>
+   <item row="2" column="2" colspan="6">
+    <widget class="QLineEdit" name="txt_cuil"/>
+   </item>
+   <item row="2" column="0" colspan="2">
+    <widget class="QLabel" name="lbl_1">
+     <property name="text">
+      <string>CUIL - Documento:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="2" colspan="5">
+    <widget class="QLineEdit" name="txt_legajo"/>
+   </item>
+   <item row="8" column="7">
+    <widget class="QPushButton" name="btn_guardar">
+     <property name="text">
+      <string>Guardar</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="0">
+    <widget class="QLabel" name="lbl_3">
+     <property name="text">
+      <string>Nombre(s):</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="5">
+    <widget class="QLabel" name="lbl_5">
+     <property name="text">
+      <string>Mes hasta:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="0" colspan="2">
+    <widget class="QLabel" name="lbl_4">
+     <property name="text">
+      <string>Mes desde:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="6">
+    <widget class="QLineEdit" name="txt_hasta"/>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

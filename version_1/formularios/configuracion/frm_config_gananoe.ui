@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>frm_config_gananoe</class>
+ <widget class="QDialog" name="frm_config_gananoe">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>428</width>
+    <height>211</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Configuración ganancias otros empleadores</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../../img/windows/main.svg</normaloff>../../img/windows/main.svg</iconset>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QCheckBox" name="chk_ganbruta">
+     <property name="text">
+      <string>Ganancia bruta</string>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="1">
+    <widget class="QCheckBox" name="chk_sac">
+     <property name="text">
+      <string>SAC</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QCheckBox" name="chk_gannohab">
+     <property name="text">
+      <string>Ganancias no habituales</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1" colspan="2">
+    <widget class="QCheckBox" name="chk_hsextgrav">
+     <property name="text">
+      <string>Hs. Extras gravadas</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="QCheckBox" name="chk_retganan">
+     <property name="text">
+      <string>Retención ganancias</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="1" colspan="2">
+    <widget class="QCheckBox" name="chk_hsextex">
+     <property name="text">
+      <string>Hs. Extras exentas</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="0">
+    <widget class="QCheckBox" name="chk_ajuste">
+     <property name="text">
+      <string>Ajuste</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="1" colspan="2">
+    <widget class="QCheckBox" name="chk_matdid">
+     <property name="text">
+      <string>Material didáctico</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="0">
+    <widget class="QCheckBox" name="chk_remuexen">
+     <property name="text">
+      <string>Remuneración exenta / No alcanzada</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="1" colspan="2">
+    <widget class="QCheckBox" name="chk_gastmov">
+     <property name="text">
+      <string>Gastos movilidad / viaticos</string>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
+     </property>
+     <property name="tristate">
+      <bool>false</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="1">
+    <widget class="QPushButton" name="btn_cerrar">
+     <property name="text">
+      <string>Cerrar</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="2">
+    <widget class="QPushButton" name="btn_guardar">
+     <property name="text">
+      <string>Guardar</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

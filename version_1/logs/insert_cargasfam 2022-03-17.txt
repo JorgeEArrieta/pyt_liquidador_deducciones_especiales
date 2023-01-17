@@ -1,0 +1,19 @@
+El legajo 28 ya contiene un familiar con el numero de documento 20903275823.0. No se realiza el insert.
+El legajo 28 ya contiene un familiar con el numero de documento 27913275823.0. No se realiza el insert.
+Faltan campos obligatorios en legajo 217. No se realiza el insert.
+Faltan campos obligatorios en legajo 226. No se realiza el insert.
+El legajo 28 ya contiene un familiar con el numero de documento 20903275823.0. No se realiza el insert.
+El legajo 28 ya contiene un familiar con el numero de documento 27913275823.0. No se realiza el insert.
+Faltan campos obligatorios en legajo 217. No se realiza el insert.
+Faltan campos obligatorios en legajo 226. No se realiza el insert.
+Error en la lectura del xml 20993275883. Revisar que exista un legajo asociado para el número de cuil.
+El legajo 28 ya contiene un familiar con el numero de documento 20903275823.0. No se realiza el insert.
+El legajo 28 ya contiene un familiar con el numero de documento 27913275823.0. No se realiza el insert.
+Faltan campos obligatorios en legajo 217. No se realiza el insert.
+Faltan campos obligatorios en legajo 226. No se realiza el insert.
+Error en la lectura del xml 20993275883. Revisar que exista un legajo asociado para el número de cuil.
+El legajo 28 ya contiene un familiar con el numero de documento 20903275823.0. No se realiza el insert.
+El legajo 28 ya contiene un familiar con el numero de documento 27913275823.0. No se realiza el insert.
+Faltan campos obligatorios en legajo 217. No se realiza el insert.
+Faltan campos obligatorios en legajo 226. No se realiza el insert.
+Error en la lectura del xml 20993275883. Revisar que exista un legajo asociado para el número de cuil.

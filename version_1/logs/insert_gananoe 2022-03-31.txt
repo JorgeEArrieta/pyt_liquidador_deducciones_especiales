@@ -1,0 +1,86 @@
+Error en la lectura del xml 20993275883. Revisar que exista un legajo asociado para el número de cuil.
+El legajo 28 ya contiene un registro para el cuit 2021.0, mes Laboratorio. No se realiza el insert.
+El legajo 28 ya contiene un registro para el cuit 2021.0, mes Laboratorio. No se realiza el insert.
+El legajo 28 ya contiene un registro para el cuit 2021.0, mes Laboratorio. No se realiza el insert.
+El legajo 28 ya contiene un registro para el cuit 2021.0, mes Laboratorio. No se realiza el insert.
+El legajo 28 ya contiene un registro para el cuit 2021.0, mes Laboratorio. No se realiza el insert.
+El legajo 28 ya contiene un registro para el cuit 2021.0, mes Laboratorio. No se realiza el insert.
+El legajo 28 ya contiene un registro para el cuit 2021.0, mes Laboratorio. No se realiza el insert.
+El legajo 28 ya contiene un registro para el cuit 2021.0, mes Laboratorio. No se realiza el insert.
+El legajo 28 ya contiene un registro para el cuit 2021.0, mes Laboratorio. No se realiza el insert.
+El legajo 28 ya contiene un registro para el cuit 2021.0, mes Laboratorio. No se realiza el insert.
+El legajo 28 ya contiene un registro para el cuit 2021.0, mes Laboratorio. No se realiza el insert.
+El legajo 28 ya contiene un registro para el cuit 2021.0, mes Laboratorio. No se realiza el insert.
+Faltan campos obligatorios en legajo 21976541353. No se realiza el insert.
+Faltan campos obligatorios en legajo 21976541353. No se realiza el insert.
+Faltan campos obligatorios en legajo 21976541353. No se realiza el insert.
+Faltan campos obligatorios en legajo 21976541353. No se realiza el insert.
+Faltan campos obligatorios en legajo 21976541353. No se realiza el insert.
+Faltan campos obligatorios en legajo 21976541353. No se realiza el insert.
+Faltan campos obligatorios en legajo 21976541353. No se realiza el insert.
+Faltan campos obligatorios en legajo 21976541353. No se realiza el insert.
+Faltan campos obligatorios en legajo 21976541353. No se realiza el insert.
+Faltan campos obligatorios en legajo 21976541353. No se realiza el insert.
+Faltan campos obligatorios en legajo 21976541353. No se realiza el insert.
+Faltan campos obligatorios en legajo 21976541353. No se realiza el insert.
+El legajo 145 ya contiene un registro para el cuit 2021.0, mes Frigorifico. No se realiza el insert.
+El legajo 712 ya contiene un registro para el cuit 2021, mes Aeropuerto. No se realiza el insert.
+El legajo 712 ya contiene un registro para el cuit 2021, mes Aeropuerto. No se realiza el insert.
+El legajo 712 ya contiene un registro para el cuit 2021, mes Aeropuerto. No se realiza el insert.
+El legajo 712 ya contiene un registro para el cuit 2021, mes Aeropuerto. No se realiza el insert.
+El legajo 712 ya contiene un registro para el cuit 2021, mes Aeropuerto. No se realiza el insert.
+El legajo 712 ya contiene un registro para el cuit 2021, mes Aeropuerto. No se realiza el insert.
+El legajo 712 ya contiene un registro para el cuit 2021, mes AFIP. No se realiza el insert.
+El legajo 712 ya contiene un registro para el cuit 2021, mes AFIP. No se realiza el insert.
+El legajo 712 ya contiene un registro para el cuit 2021, mes AFIP. No se realiza el insert.
+El legajo 712 ya contiene un registro para el cuit 2021, mes AFIP. No se realiza el insert.
+El legajo 712 ya contiene un registro para el cuit 2021, mes AFIP. No se realiza el insert.
+El legajo 712 ya contiene un registro para el cuit 2021, mes AFIP. No se realiza el insert.
+El legajo 559 ya contiene un registro para el cuit 2021, mes Empresa portuaria. No se realiza el insert.
+El legajo 559 ya contiene un registro para el cuit 2021, mes Empresa portuaria. No se realiza el insert.
+El legajo 559 ya contiene un registro para el cuit 2021, mes Empresa portuaria. No se realiza el insert.
+El legajo 559 ya contiene un registro para el cuit 2021, mes Empresa portuaria. No se realiza el insert.
+El legajo 559 ya contiene un registro para el cuit 2021, mes Empresa portuaria. No se realiza el insert.
+El legajo 559 ya contiene un registro para el cuit 2021, mes Empresa portuaria. No se realiza el insert.
+El legajo 559 ya contiene un registro para el cuit 2021, mes AFIP. No se realiza el insert.
+El legajo 559 ya contiene un registro para el cuit 2021, mes AFIP. No se realiza el insert.
+El legajo 559 ya contiene un registro para el cuit 2021, mes AFIP. No se realiza el insert.
+El legajo 559 ya contiene un registro para el cuit 2021, mes AFIP. No se realiza el insert.
+El legajo 559 ya contiene un registro para el cuit 2021, mes AFIP. No se realiza el insert.
+El legajo 559 ya contiene un registro para el cuit 2021, mes AFIP. No se realiza el insert.
+El legajo 82 ya contiene un registro para el cuit 2021, mes Internet SA. No se realiza el insert.
+El legajo 82 ya contiene un registro para el cuit 2021, mes Internet SA. No se realiza el insert.
+El legajo 370 ya contiene un registro para el cuit 2021, mes Frigorifico. No se realiza el insert.
+El legajo 388 ya contiene un registro para el cuit 2021, mes Empresa XX SA. No se realiza el insert.
+El legajo 388 ya contiene un registro para el cuit 2021, mes Empresa XX SA. No se realiza el insert.
+El legajo 388 ya contiene un registro para el cuit 2021, mes Empresa XX SA. No se realiza el insert.
+El legajo 388 ya contiene un registro para el cuit 2021, mes Empresa XX SA. No se realiza el insert.
+El legajo 388 ya contiene un registro para el cuit 2021, mes Empresa XX SA. No se realiza el insert.
+El legajo 388 ya contiene un registro para el cuit 2021, mes Empresa XX SA. No se realiza el insert.
+El legajo 388 ya contiene un registro para el cuit 2021, mes Empresa prueba. No se realiza el insert.
+El legajo 388 ya contiene un registro para el cuit 2021, mes Empresa prueba. No se realiza el insert.
+El legajo 388 ya contiene un registro para el cuit 2021, mes Empresa prueba. No se realiza el insert.
+El legajo 388 ya contiene un registro para el cuit 2021, mes Empresa prueba. No se realiza el insert.
+El legajo 388 ya contiene un registro para el cuit 2021, mes Empresa prueba. No se realiza el insert.
+El legajo 388 ya contiene un registro para el cuit 2021, mes Empresa prueba. No se realiza el insert.
+El legajo 145 ya contiene un registro para el cuit 2021, mes Frigorifico. No se realiza el insert.
+El legajo 253 ya contiene un registro para el cuit 2021, mes Frigorifico. No se realiza el insert.
+El legajo 253 ya contiene un registro para el cuit 2021, mes Frigorifico. No se realiza el insert.
+El legajo 253 ya contiene un registro para el cuit 2021, mes Frigorifico. No se realiza el insert.
+El legajo 316 ya contiene un registro para el cuit 2021, mes Aeropuerto. No se realiza el insert.
+El legajo 316 ya contiene un registro para el cuit 2021, mes Aeropuerto. No se realiza el insert.
+El legajo 316 ya contiene un registro para el cuit 2021, mes Aeropuerto. No se realiza el insert.
+El legajo 316 ya contiene un registro para el cuit 2021, mes Aeropuerto. No se realiza el insert.
+El legajo 28 ya contiene un registro para el cuit 2021, mes Laboratorio. No se realiza el insert.
+El legajo 28 ya contiene un registro para el cuit 2021, mes Laboratorio. No se realiza el insert.
+El legajo 28 ya contiene un registro para el cuit 2021, mes Laboratorio. No se realiza el insert.
+El legajo 28 ya contiene un registro para el cuit 2021, mes Laboratorio. No se realiza el insert.
+El legajo 28 ya contiene un registro para el cuit 2021, mes Laboratorio. No se realiza el insert.
+El legajo 28 ya contiene un registro para el cuit 2021, mes Laboratorio. No se realiza el insert.
+El legajo 28 ya contiene un registro para el cuit 2021, mes Laboratorio. No se realiza el insert.
+El legajo 28 ya contiene un registro para el cuit 2021, mes Laboratorio. No se realiza el insert.
+El legajo 28 ya contiene un registro para el cuit 2021, mes Laboratorio. No se realiza el insert.
+El legajo 28 ya contiene un registro para el cuit 2021, mes Laboratorio. No se realiza el insert.
+El legajo 28 ya contiene un registro para el cuit 2021, mes Laboratorio. No se realiza el insert.
+El legajo 28 ya contiene un registro para el cuit 2021, mes Laboratorio. No se realiza el insert.
+Error en la lectura del xml 20993275883. Revisar que exista un legajo asociado para el número de cuil.

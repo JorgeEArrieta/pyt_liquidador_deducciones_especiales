@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>frm_borrar_tabla</class>
+ <widget class="QDialog" name="frm_borrar_tabla">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>327</width>
+    <height>115</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Borrar registros</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../../img/windows/main.svg</normaloff>../../img/windows/main.svg</iconset>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QLabel" name="lbl_0">
+     <property name="text">
+      <string>Nombre tabla:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="1">
+    <widget class="QComboBox" name="cmb_tabla"/>
+   </item>
+   <item row="1" column="0">
+    <widget class="QLabel" name="lbl_1">
+     <property name="text">
+      <string>Mes:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1">
+    <widget class="QComboBox" name="cmb_mes"/>
+   </item>
+   <item row="1" column="2">
+    <widget class="QLabel" name="lbl_2">
+     <property name="text">
+      <string>Año:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="3">
+    <widget class="QComboBox" name="comboBox_3"/>
+   </item>
+   <item row="2" column="2">
+    <widget class="QPushButton" name="btn_cerrar">
+     <property name="text">
+      <string>Cerrar</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="3">
+    <widget class="QPushButton" name="btn_ejecutar">
+     <property name="text">
+      <string>Ejecutar</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

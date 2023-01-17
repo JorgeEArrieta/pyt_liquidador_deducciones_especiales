@@ -1,0 +1,299 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Documentation | Lungomare</title>
+    <link rel="stylesheet" href="css/app.css" />
+    <script src="js/vendor/modernizr.js"></script>
+  </head>
+  <body>
+    
+
+	<div class="row">
+		<div class="small-3 large-3 columns">
+			<ul class="side-nav">
+				<li><a href="#sec1">01. Getting Started</a>
+					<ul>
+						<li><a href="#sec1a">a. Theme Installation</a></li>
+						<li><a href="#sec1b">b. Plugin Installation</a></li>
+						<li><a href="#sec1c">c. Demo Content</a></li>
+						<li><a href="#sec1d">d. Setting Default Homepage</a></li>
+						<li><a href="#sec1e">e. Setting Main Menu</a></li>
+					</ul>
+				</li>
+				<li><a href="#sec2">02. Theme Settings</a></li>
+				<li><a href="#sec3">03. Widgets and Sidebars</a></li>
+				<li><a href="#sec4">04. Theme Customizations</a>
+					<ul>
+						<li><a href="#sec4a">a. Using Customizer</a></li>
+						<li><a href="#sec4b">b. WP Admin Editor</a></li>
+					</ul>
+				</li>
+				<li><a href="#sec5">05. Slider</a></li>
+				<li><a href="#sec6">06. Restaurant Menu</a></li>
+				<li><a href="#sec7">07. Gallery</a></li>
+				<li><a href="#sec8">08. Events</a></li>
+				<li><a href="#sec9">09. Shortcodes</a></li>
+			</ul>
+		</div>
+		<div class="small-9 large-9 columns">
+			<h1>Lungomare Theme | Documentation</h1>
+			<div class="panel">
+				<p>Lungomare theme is a perfect solution for restaurant/cafe/bar website type.
+					It uses ZURB Foundation 5 framework and NOUVEAU theme framework.
+					It's clean and simple, easy to customize and extend
+				functionality, mobile first and responsive layout. It's packed with 4 plugins for restaurant type of a
+				website: Gallery, Events, Slider, Food menu.</p>
+				<p>Useful links for developers:<br>
+					<a target="_blank" href="http://www.nouveauframework.com/getting-started/">NOUVEAU framework documentation</a><br>
+				<a target="_blank" href="http://foundation.zurb.com/docs">Zurb Foundation documentation</a><br><br>
+					<a target="_blank" href="http://fortawesome.github.io/Font-Awesome/">Font Awesome documentation</a><br>
+					<a target="_blank" href="https://daneden.github.io/animate.css/">Animate.css library documentation<br></a>
+					<a target="_blank" href="http://imakewebthings.com/waypoints/guides/getting-started/">Waypoints.js library documentation</a>
+				</p>
+				<p>Support: <br>dementey.d@gmail.com</p>
+			</div>
+
+			<h1 id="sec1">01. Getting Started</h1>
+			<h2 id="sec1a">a. Theme Installation</h2>
+			<p>
+				To use this theme you must have WordPress(3.9 or newer) already installed.<br>
+				Follow these steps to install the theme in the admin panel:<br>
+				<ol>
+					<li>Go to <b>'Appearance > Themes'</b> section.</li>
+					<li>Click 'Add New' and select the <b>'Upload Theme'</b> option.</li>
+					<li>Choose the <b>lungomare.zip</b> file and press <b>'Install Now'</b>.</li>
+					<li>Once the theme is uploaded you need to activate it by clicking 'Activate' link.</li>
+				</ol>
+			</p>
+
+			<hr>
+
+			<h2 id="sec1b">b. Plugin Installation</h2>
+			<p>
+				Lungomare theme comes with 4 plugins that are located in /plugin folder: schat_menu.zip, schat_events.zip, schat_gallery.zip, schat_slider.zip.
+			    <br><br>
+				For each plugin perform these steps:
+				<ol>
+				<li>Go to Plugins > Add New > Upload Plugin.</li>
+				<li>Choose the plugin file (.zip) and press <b>'Install Now'</b>.</li>
+				<li>If successful, click Activate Plugin to activate it, or Return to Plugin Installer for further actions.</li>
+				</ol>
+			</p>
+
+			<hr>
+
+			<h2 id="sec1c">c. Demo Content</h2>
+			<p>
+
+				Importing the XML file will add posts, slides, gallery photos, categories, pages, comments, events, food menu categories,
+				food menu items and navigation menu content.
+				<ol>
+					<li>Locate the sample content file in the theme package (demo content folder).</li>
+					<li>Go to Tools > Import and click WordPress, then Install. WordPress will ask you to install an additional plugin for data import.</li>
+					<li>After you activate the plugin, just select the file from your theme package and follow the instructions.</li>
+				</ol>
+			</p>
+
+			<hr>
+
+			<h2 id="sec1d">d. Setting Default Homepage</h2>
+			<p>
+			<dl>
+				<dt>1. Create Homepage (skip, if you installed demo content)</dt>
+				<dd>To set up the Home page you need to create a new page, Go to <b>Pages > Add New</b>. You can give this page a
+					title <b>"Home"</b> yet you do not need to include any contents for now. Select the <b>“Full-width template”</b>
+					template from the Page Attributes section and click <b>'Publish'</b>.
+				</dd>
+				<dt>2. Create Blog page (skip, if you installed demo content)</dt>
+				<dd>Go to <b>Pages > Add New</b>. You can give this page a title <b>"Blog"</b> or "News". The content area of the page should be
+					empty. Select the <b>“Page with sidebar”</b> template from the Page Attributes section and click <b>'Publish'</b>.
+				</dd>
+				<dt>3. Configure Reading Settings</dt>
+				<dd>Now, we've created 2 pages: home and blog.
+					To configure reading settings you need to visit WordPress <b>Admin > Settings > Reading</b> and choose that
+					front page displays as static page. Then select <b>'Home' as Front Page</b> and <b>'Blog/News' as Posts Page</b>.
+				</dd>
+			</dl>
+			</p>
+
+			<hr>
+			<h2 id="sec1e">e. Setting Main Menu</h2>
+			<p>
+				To set up the main menu go to <b>Appearance > Menus</b>, create a menu, add links and assign
+				it to <b>"Primary Menu"</b> area.
+			</p>
+			<p>If you installed the demo content, you have 2 menus already created for you.
+				Edit them and assign 'Main menu' to <b>"Primary Menu"</b> area.</p>
+			<p>To display 'Footer Menu', go to 'Appearance' > 'Widgets' and add a 'Custom Menu' widget to
+				'Footer' with 'Footer Menu' selected in the widget options.
+			</p>
+			<hr>
+			<h1 id="sec2">02. Theme Settings</h1>
+			<p>To adjust theme settings go to <b>Appearance > Theme Settings</b> in WordPress Admin.</p>
+			<p>
+				Here you can set:
+				<ul>
+					<li>Copyright text that is displayed in the bottom of the website.</li>
+					<li>Google Analytics tracking code.</li>
+					<li>Address and phone number that will be displayed in the top right corner of the website.</li>
+					<li>Social Media Links.</li>
+				</ul>
+			</p>
+
+			<hr>
+			<h1 id="sec3">03. Widgets and Sidebars</h1>
+			<p>
+			Lungomare theme has 3 predefined sidebars.
+			<dl>
+
+				<dd><b>Blog Sidebar</b> - displayed on blog pages</dd>
+				<dd>
+					<b>Site Sidebar</b> - displayed on static pages.
+				</dd>
+
+				<dd>
+					<b>Footer Sidebar</b> - displayed in footer area on every page of the website.
+				</dd>
+			</dl>
+			To add/edit widgets follow this guide
+			<a target="_blank" href="http://codex.wordpress.org/WordPress_Widgets">http://codex.wordpress.org/WordPress_Widgets</a>
+			</p>
+			<hr>
+			<h1 id="sec4">04. Theme Customizations</h1>
+			<h2 id="sec4a">a. Using Customizer</h2>
+			<p>To quickly adjust the appearance of the theme go to <b>Appearance > Customize</b>.<br>
+			Here you can upload logo (header image setting), change website background image, adjust website colors in
+				real time.
+			</p>
+			<hr>
+			<h2 id="sec4b">b. WP Admin Editor</h2>
+			<p>
+				Go to <b>Appearance > Editor</b>.
+				Here you can edit slyle.css file to add your own css.<br>
+				Lungomare theme uses Foundation framework, to learn about default css classes please visit
+				official Foundation documentation page: <a target="_blank" href="http://foundation.zurb.com/docs">http://foundation.zurb.com/docs</a>
+			</p>
+			<p>
+				Theme Customizer and WP Admin Editor are only good for minor theme customization. In case you need to do major changes to the layout,
+				it's better to work with SASS files (all the SASS files included in this theme). You may need to do a little setup. You can find setup directions
+				for various use-cases in <a target="_blank" href="http://foundation.zurb.com/docs/sass.html">Zurb Foundation’s official SASS documentation</a>.
+			</p>
+			<hr>
+			<h1 id="sec5">05. Slider</h1>
+			<p>
+				Make sure that 'schat_slider' plugin is installed and activated, if so click on 'Slider' menu item in
+				WordPress Admin. The Slider is automatically displayed on Home page if you have at least one slide added.<br>
+				<br>
+				To add a new slide:
+				<ol>
+					<li>Click 'Slider' > 'Add new'</li>
+					<li>Write a title which will be displayed as a heading</li>
+					<li>Set featured image (recommended size is 1200x400px)</li>
+					<li>Use the visual editor to include some text with a slide</li>
+					<li>Use can also add a button to your slide by filling in two fields:
+					Link (button URL) and Link text (button text).
+					</li>
+				</ol>
+			</p>
+			<hr>
+			<h1 id="sec6">06. Restaurant Menu</h1>
+			<p>
+				Make sure that 'schat_menu' plugin is installed and activated, if so you are able to see 'Menu' menu item in
+				WordPress Admin.<br>
+
+			<ol>
+				<li>To set up the <b>Menu page</b> you need to create a new page, Go to <b>'Pages > Add New'</b>. You can give this page a
+					title <b>"Menu"</b> you can add description to your 'Menu' page by using the visual editor.
+					Select the <b>'Menu page'</b>
+					template from the Page Attributes section and click <b>'Publish'</b>.
+				</li>
+				<li>Click <b>'Menu' > 'Menu Categories'</b> and add categories of products you have. You can adjust the order
+				of categories by editing 'order' field of category parameters.</li>
+				<li>When the categories are set, click <b>'Menu' > 'Add new'</b> to add new product.
+				Don't forget to choose a category when adding a new product in order for it to be displayed on Menu page.
+				</li>
+			</ol>
+			</p>
+			<hr>
+			<h1 id="sec7">07. Gallery</h1>
+			<p>
+				Make sure that 'schat_gallery' plugin is installed and activated, if so click on 'Gallery' menu item in
+				WordPress Admin.<br>
+				<ol>
+					<li>To set up the <b>Gallery page</b> you need to create a new page, Go to <b>'Pages > Add New'</b>. You can give this page a
+						title <b>'Gallery'</b>.
+						Select the <b>'Menu page'</b>
+						template from the Page Attributes section and click <b>'Publish'</b>.
+					</li>
+					<li>Click 'Gallery' > 'Add new'</li>
+					<li>Write a title which will be displayed as a caption</li>
+					<li>Set featured image</li>
+					<li>Optional: choose a photo category</li>
+				</ol>
+			</p>
+			<hr>
+			<h1 id="sec8">08. Events</h1>
+			<p>
+				Make sure that 'schat_events' plugin is installed and activated, if so click on 'Gallery' menu item in
+				WordPress Admin.<br>
+				To add a new event:
+				<ol>
+					<li>Click 'Events' > 'Add new'.</li>
+					<li>Write a title of the event.</li>
+					<li>Set featured image.</li>
+					<li>Use the visual editor to include some text with about an event.</li>
+					<li>Optional: fill in 'time' and 'location' fields in any format you prefer.</li>
+				</ol>
+			</p>
+			<hr>
+			<h1 id="sec9">09. Shortcodes</h1>
+			<h3>Responsive Grid</h3>
+			<p>
+			<dl>
+				<dt>[grid][/grid]</dt>
+				<dd>This shortcode will create a container for you grid.</dd>
+
+				<dt>[grid][1-2]Content A[/1-2][1-2]Content B[/1-2][/grid]</dt>
+				<dd>This shortcode will create a two column grid.</dd>
+
+				<dt>[grid][1-3]Content A[/1-3][1-3]Content B[/1-3][1-3]Content C[/1-3][/grid]</dt>
+				<dd>This shortcode will create a three column grid.</dd>
+
+				<dt>[grid][1-4]Content A[/1-4][1-4]Content B[/1-4][1-4]Content C[/1-4][/grid]</dt>
+				<dd>This shortcode will create a four column grid.</dd>
+			</dl>
+				Note: you can also use html when adding/editing pages of the website.
+				<a target="_blank" href="http://foundation.zurb.com/docs/components/grid.html">Foundation responsive grid.</a>
+			</p>
+
+			<h3>Other shortcodes</h3>
+			<p>
+			<dl>
+				<dt>[button link="url"]Text[/button]</dt>
+				<dd>This shortcode will create a button with provided url and title.</dd>
+
+				<dt>[social]</dt>
+				<dd>This shortcode will display social media buttons if you set up URL's on 'Theme Settings' page.</dd>
+
+				<dt>[recent-gallery]</dt>
+				<dd>This shortcode will display 5 latest photos from the gallery plugin. It should be used only on
+				'Full-width template' static pages.</dd>
+
+				<dt>[recent-events count="3"]</dt>
+				<dd>This shortcode will display the most recent events. 'Count' attribute specifies number of elements
+				 to be displayed, by default it's 3.</dd>
+			</dl>
+			</p>
+		</div>
+ 	</div>
+
+    
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>

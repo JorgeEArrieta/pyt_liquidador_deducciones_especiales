@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>frm_main</class>
+ <widget class="QMainWindow" name="frm_main">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>698</width>
+    <height>524</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>PayroolTools - Ganancias - Liquidación primer y segundo párrafo</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../img/windows/main.svg</normaloff>../img/windows/main.svg</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QTableView" name="tv_datos">
+      <property name="sizeAdjustPolicy">
+       <enum>QAbstractScrollArea::AdjustIgnored</enum>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>698</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="mnu_archivo">
+    <property name="title">
+     <string>Archivo</string>
+    </property>
+    <addaction name="act_nuevo"/>
+    <addaction name="act_abrir"/>
+    <addaction name="separator"/>
+    <addaction name="act_salir"/>
+   </widget>
+   <widget class="QMenu" name="mnu_ver">
+    <property name="title">
+     <string>Ver</string>
+    </property>
+    <addaction name="act_ver_empleado"/>
+    <addaction name="act_ver_remu"/>
+    <addaction name="act_ver_deduc"/>
+    <addaction name="act_ver_cargfam"/>
+    <addaction name="act_ver_gananoe"/>
+    <addaction name="separator"/>
+    <addaction name="act_ver_prombrut"/>
+    <addaction name="act_ver_dedprim"/>
+    <addaction name="ver_act_dedseg"/>
+   </widget>
+   <widget class="QMenu" name="mnu_importar">
+    <property name="title">
+     <string>Importar</string>
+    </property>
+    <addaction name="act_imp_empleado"/>
+    <addaction name="act_imp_remu"/>
+    <addaction name="act_imp_deduc"/>
+    <addaction name="act_imp_cargfam"/>
+    <addaction name="act_imp_gananoe"/>
+   </widget>
+   <widget class="QMenu" name="mnu_ejecutar">
+    <property name="title">
+     <string>Ejecutar</string>
+    </property>
+    <addaction name="act_promedio"/>
+    <addaction name="act_liquidador"/>
+    <addaction name="separator"/>
+    <addaction name="act_ejec_borrar"/>
+   </widget>
+   <widget class="QMenu" name="mnu_reporte">
+    <property name="title">
+     <string>Reportes</string>
+    </property>
+    <addaction name="act_rep_promedio"/>
+    <addaction name="act_rep_deduc"/>
+   </widget>
+   <widget class="QMenu" name="mnu_config">
+    <property name="title">
+     <string>Configuración</string>
+    </property>
+    <addaction name="act_ded_personales"/>
+   </widget>
+   <widget class="QMenu" name="menuAyuda">
+    <property name="title">
+     <string>Ayuda</string>
+    </property>
+    <addaction name="actionDocumentaci_n"/>
+    <addaction name="separator"/>
+    <addaction name="actionAcerca_de"/>
+   </widget>
+   <addaction name="mnu_archivo"/>
+   <addaction name="mnu_ver"/>
+   <addaction name="mnu_importar"/>
+   <addaction name="mnu_ejecutar"/>
+   <addaction name="mnu_reporte"/>
+   <addaction name="mnu_config"/>
+   <addaction name="menuAyuda"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="act_nuevo"/>
+   <addaction name="act_abrir"/>
+   <addaction name="act_guardar"/>
+   <addaction name="separator"/>
+   <addaction name="act_imp_empleado"/>
+   <addaction name="act_imp_remu"/>
+   <addaction name="act_imp_deduc"/>
+   <addaction name="act_imp_cargfam"/>
+   <addaction name="act_imp_gananoe"/>
+   <addaction name="separator"/>
+   <addaction name="act_promedio"/>
+   <addaction name="act_liquidador"/>
+   <addaction name="separator"/>
+   <addaction name="act_tool_prombruto"/>
+   <addaction name="act_tool_dedprim"/>
+   <addaction name="act_tool_dedsegun"/>
+   <addaction name="separator"/>
+   <addaction name="act_ded_personales"/>
+  </widget>
+  <action name="act_nuevo">
+   <property name="icon">
+    <iconset>
+     <normaloff>../img/menu/archivo/mnu_new.svg</normaloff>../img/menu/archivo/mnu_new.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Nueva BBDD</string>
+   </property>
+  </action>
+  <action name="act_abrir">
+   <property name="icon">
+    <iconset>
+     <normaloff>../img/menu/archivo/mnu_open.svg</normaloff>../img/menu/archivo/mnu_open.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Abrir BBDD</string>
+   </property>
+  </action>
+  <action name="act_guardar">
+   <property name="icon">
+    <iconset>
+     <normaloff>../img/menu/archivo/mnu_save.svg</normaloff>../img/menu/archivo/mnu_save.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Guardar BBDD</string>
+   </property>
+  </action>
+  <action name="act_cerrar">
+   <property name="icon">
+    <iconset>
+     <normaloff>../img/menu/archivo/mnu_close.svg</normaloff>../img/menu/archivo/mnu_close.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Cerrar BBDD</string>
+   </property>
+  </action>
+  <action name="act_salir">
+   <property name="icon">
+    <iconset>
+     <normaloff>../img/menu/archivo/mnu_exit.svg</normaloff>../img/menu/archivo/mnu_exit.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Salir</string>
+   </property>
+  </action>
+  <action name="act_ver_empleado">
+   <property name="icon">
+    <iconset>
+     <normaloff>../img/menu/ver/mnu_empleado.svg</normaloff>../img/menu/ver/mnu_empleado.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Empleados</string>
+   </property>
+  </action>
+  <action name="act_ver_remu">
+   <property name="icon">
+    <iconset>
+     <normaloff>../img/menu/ver/mnu_remuneraciones.svg</normaloff>../img/menu/ver/mnu_remuneraciones.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Remuneraciones</string>
+   </property>
+  </action>
+  <action name="act_ver_deduc">
+   <property name="icon">
+    <iconset>
+     <normaloff>../img/menu/ver/mnu_deducciones.svg</normaloff>../img/menu/ver/mnu_deducciones.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Deducciones</string>
+   </property>
+  </action>
+  <action name="act_ver_cargfam">
+   <property name="icon">
+    <iconset>
+     <normaloff>../img/menu/ver/mnu_cargasfamilia.svg</normaloff>../img/menu/ver/mnu_cargasfamilia.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Cargas de familia</string>
+   </property>
+  </action>
+  <action name="act_ver_gananoe">
+   <property name="icon">
+    <iconset>
+     <normaloff>../img/menu/ver/mnu_gananciasoe.svg</normaloff>../img/menu/ver/mnu_gananciasoe.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Ganancias OE</string>
+   </property>
+  </action>
+  <action name="act_imp_empleado">
+   <property name="icon">
+    <iconset>
+     <normaloff>../img/menu/importar/mnu_employee.svg</normaloff>../img/menu/importar/mnu_employee.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Empleados</string>
+   </property>
+  </action>
+  <action name="act_imp_remu">
+   <property name="icon">
+    <iconset>
+     <normaloff>../img/menu/importar/mnu_remu.svg</normaloff>../img/menu/importar/mnu_remu.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Remuneraciones</string>
+   </property>
+  </action>
+  <action name="act_imp_deduc">
+   <property name="icon">
+    <iconset>
+     <normaloff>../img/menu/importar/mnu_deduc.svg</normaloff>../img/menu/importar/mnu_deduc.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Deducciones</string>
+   </property>
+  </action>
+  <action name="act_imp_cargfam">
+   <property name="icon">
+    <iconset>
+     <normaloff>../img/menu/importar/mnu_familia.svg</normaloff>../img/menu/importar/mnu_familia.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Cargas de familia</string>
+   </property>
+  </action>
+  <action name="act_imp_gananoe">
+   <property name="icon">
+    <iconset>
+     <normaloff>../img/menu/importar/mnu_gan_oe.svg</normaloff>../img/menu/importar/mnu_gan_oe.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Ganancias OE</string>
+   </property>
+  </action>
+  <action name="act_promedio">
+   <property name="icon">
+    <iconset>
+     <normaloff>../img/menu/ejecutar/mnu_promedio.svg</normaloff>../img/menu/ejecutar/mnu_promedio.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Promedio bruto</string>
+   </property>
+  </action>
+  <action name="act_liquidador">
+   <property name="icon">
+    <iconset>
+     <normaloff>../img/menu/ejecutar/mnu_deducciones.svg</normaloff>../img/menu/ejecutar/mnu_deducciones.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Calculo de deducciones</string>
+   </property>
+  </action>
+  <action name="act_rep_promedio">
+   <property name="icon">
+    <iconset>
+     <normaloff>../img/menu/reportes/mnu_promedio.svg</normaloff>../img/menu/reportes/mnu_promedio.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Promedio remuneración bruta</string>
+   </property>
+  </action>
+  <action name="act_rep_deduc">
+   <property name="icon">
+    <iconset>
+     <normaloff>../img/menu/reportes/mnu_deduccion.svg</normaloff>../img/menu/reportes/mnu_deduccion.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Deducciones</string>
+   </property>
+  </action>
+  <action name="act_ded_personales">
+   <property name="icon">
+    <iconset>
+     <normaloff>../img/menu/config/mnu_configuracion.svg</normaloff>../img/menu/config/mnu_configuracion.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Deducciones personales</string>
+   </property>
+  </action>
+  <action name="actionDocumentaci_n">
+   <property name="icon">
+    <iconset>
+     <normaloff>../img/menu/ayuda/mnu_documentacion.svg</normaloff>../img/menu/ayuda/mnu_documentacion.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Documentación</string>
+   </property>
+  </action>
+  <action name="actionAcerca_de">
+   <property name="icon">
+    <iconset>
+     <normaloff>../img/menu/ayuda/mnu_acerca.png</normaloff>../img/menu/ayuda/mnu_acerca.png</iconset>
+   </property>
+   <property name="text">
+    <string>Acerca de...</string>
+   </property>
+  </action>
+  <action name="act_ver_prombrut">
+   <property name="icon">
+    <iconset>
+     <normaloff>../img/menu/ver/mnu_prombruto.svg</normaloff>../img/menu/ver/mnu_prombruto.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Promedios remuneración bruta</string>
+   </property>
+  </action>
+  <action name="act_ver_dedprim">
+   <property name="icon">
+    <iconset>
+     <normaloff>../img/menu/ver/mnu_primerpar.png</normaloff>../img/menu/ver/mnu_primerpar.png</iconset>
+   </property>
+   <property name="text">
+    <string>Deducciones primer párrafo</string>
+   </property>
+  </action>
+  <action name="ver_act_dedseg">
+   <property name="icon">
+    <iconset>
+     <normaloff>../img/menu/ver/mnu_segundopar.png</normaloff>../img/menu/ver/mnu_segundopar.png</iconset>
+   </property>
+   <property name="text">
+    <string>Deducciones segundo párrafo</string>
+   </property>
+  </action>
+  <action name="act_tool_prombruto">
+   <property name="icon">
+    <iconset>
+     <normaloff>../img/menu/ver/mnu_prombruto.svg</normaloff>../img/menu/ver/mnu_prombruto.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Promdio bruto</string>
+   </property>
+  </action>
+  <action name="act_tool_dedprim">
+   <property name="icon">
+    <iconset>
+     <normaloff>../img/menu/ver/mnu_primerpar.png</normaloff>../img/menu/ver/mnu_primerpar.png</iconset>
+   </property>
+   <property name="text">
+    <string>Deducciones primer párrafo</string>
+   </property>
+  </action>
+  <action name="act_tool_dedsegun">
+   <property name="icon">
+    <iconset>
+     <normaloff>../img/menu/ver/mnu_segundopar.png</normaloff>../img/menu/ver/mnu_segundopar.png</iconset>
+   </property>
+   <property name="text">
+    <string>Deducciones segundo párrafo</string>
+   </property>
+  </action>
+  <action name="act_ejec_borrar">
+   <property name="icon">
+    <iconset>
+     <normaloff>../img/menu/ejecutar/mnu_borrar.svg</normaloff>../img/menu/ejecutar/mnu_borrar.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Borrar registros BBDD</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

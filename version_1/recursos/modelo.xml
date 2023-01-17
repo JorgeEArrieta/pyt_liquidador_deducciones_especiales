@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion>
+	<periodo>2021</periodo>
+	<nroPresentacion>9</nroPresentacion>
+	<fechaPresentacion>2022-03-10</fechaPresentacion>
+	<empleado>
+		<cuit>20993275823</cuit>
+		<tipoDoc>80</tipoDoc>
+		<apellido>Goycochea</apellido>
+		<nombre>Sergio</nombre>
+		<direccion>
+			<provincia>0</provincia>
+			<cp>1065</cp>
+			<localidad>Ciudad de Buenos Aires</localidad>
+			<calle>DEFENSA</calle>
+			<nro>113</nro>
+			<piso>06</piso>
+		</direccion>
+	</empleado>
+	<cargasFamilia>
+		<cargaFamilia>
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>20903275823</nroDoc>
+			<apellido>Goycochea</apellido>
+			<nombre>Ana</nombre>
+			<fechaNac>2020-01-15</fechaNac>
+			<mesDesde>1</mesDesde>
+			<mesHasta>12</mesHasta>
+			<parentesco>3</parentesco>
+			<vigenteProximosPeriodos>S</vigenteProximosPeriodos>
+			<porcentajeDeduccion>100</porcentajeDeduccion>
+		</cargaFamilia>
+		<cargaFamilia>
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>27913275823</nroDoc>
+			<apellido>GARCIA</apellido>
+			<nombre>Gabriela</nombre>
+			<fechaNac>1991-01-15</fechaNac>
+			<mesDesde>2</mesDesde>
+			<mesHasta>10</mesHasta>
+			<parentesco>1</parentesco>
+			<vigenteProximosPeriodos>N</vigenteProximosPeriodos>
+			<porcentajeDeduccion>100</porcentajeDeduccion>
+		</cargaFamilia>
+	</cargasFamilia>
+	<ganLiqOtrosEmpEnt>
+		<empEnt>
+			<cuit>30555555551</cuit>
+			<denominacion>Empresa XX SA</denominacion>
+			<ingresosAportes>
+				<ingAp mes="1">
+					<obraSoc>3581.87</obraSoc>
+					<segSoc>8127.51</segSoc>
+					<sind>2125.57</sind>
+					<ganBrut>119395.67</ganBrut>
+					<retGan>0</retGan>
+					<retribNoHab>0</retribNoHab>
+					<sac>0</sac>
+					<horasExtGr>0</horasExtGr>
+				</ingAp>
+				<ingAp mes="2">
+					<obraSoc>3581.87</obraSoc>
+					<segSoc>8127.51</segSoc>
+					<sind>2125.57</sind>
+					<ganBrut>119395.67</ganBrut>
+					<retGan>0</retGan>
+					<retribNoHab>0</retribNoHab>
+					<sac>0</sac>
+					<horasExtGr>0</horasExtGr>
+				</ingAp>
+				<ingAp mes="3">
+					<obraSoc>3581.87</obraSoc>
+					<segSoc>8127.51</segSoc>
+					<sind>2125.57</sind>
+					<ganBrut>119395.67</ganBrut>
+					<retGan>0</retGan>
+					<retribNoHab>0</retribNoHab>
+					<sac>0</sac>
+					<horasExtGr>0</horasExtGr>
+				</ingAp>
+				<ingAp mes="4">
+					<obraSoc>3581.87</obraSoc>
+					<segSoc>8127.51</segSoc>
+					<sind>2125.57</sind>
+					<ganBrut>119395.67</ganBrut>
+					<retGan>0</retGan>
+					<retribNoHab>0</retribNoHab>
+					<sac>0</sac>
+					<horasExtGr>0</horasExtGr>
+				</ingAp>
+				<ingAp mes="5">
+					<obraSoc>3581.87</obraSoc>
+					<segSoc>8127.51</segSoc>
+					<sind>2125.57</sind>
+					<ganBrut>119395.67</ganBrut>
+					<retGan>0</retGan>
+					<retribNoHab>0</retribNoHab>
+					<sac>0</sac>
+					<horasExtGr>0</horasExtGr>
+				</ingAp>
+				<ingAp mes="6">
+					<obraSoc>3581.87</obraSoc>
+					<segSoc>8127.51</segSoc>
+					<sind>2125.57</sind>
+					<ganBrut>119395.67</ganBrut>
+					<retGan>0</retGan>
+					<retribNoHab>0</retribNoHab>
+					<sac>0</sac>
+					<horasExtGr>0</horasExtGr>
+				</ingAp>
+				<ingAp mes="7">
+					<obraSoc>3581.87</obraSoc>
+					<segSoc>8127.51</segSoc>
+					<sind>2125.57</sind>
+					<ganBrut>119395.67</ganBrut>
+					<retGan>0</retGan>
+					<retribNoHab>0</retribNoHab>
+					<sac>0</sac>
+					<horasExtGr>0</horasExtGr>
+				</ingAp>
+				<ingAp mes="8">
+					<obraSoc>3581.87</obraSoc>
+					<segSoc>8127.51</segSoc>
+					<sind>2125.57</sind>
+					<ganBrut>119395.67</ganBrut>
+					<retGan>0</retGan>
+					<retribNoHab>0</retribNoHab>
+					<sac>0</sac>
+					<horasExtGr>0</horasExtGr>
+				</ingAp>
+				<ingAp mes="9">
+					<obraSoc>3581.87</obraSoc>
+					<segSoc>8127.51</segSoc>
+					<sind>2125.57</sind>
+					<ganBrut>119395.67</ganBrut>
+					<retGan>0</retGan>
+					<retribNoHab>0</retribNoHab>
+					<sac>0</sac>
+					<horasExtGr>0</horasExtGr>
+				</ingAp>
+				<ingAp mes="10">
+					<obraSoc>3581.87</obraSoc>
+					<segSoc>8127.51</segSoc>
+					<sind>2125.57</sind>
+					<ganBrut>119395.67</ganBrut>
+					<retGan>0</retGan>
+					<retribNoHab>0</retribNoHab>
+					<sac>0</sac>
+					<horasExtGr>0</horasExtGr>
+				</ingAp>
+				<ingAp mes="11">
+					<obraSoc>3581.87</obraSoc>
+					<segSoc>8127.51</segSoc>
+					<sind>2125.57</sind>
+					<ganBrut>119395.67</ganBrut>
+					<retGan>0</retGan>
+					<retribNoHab>0</retribNoHab>
+					<sac>0</sac>
+					<horasExtGr>0</horasExtGr>
+				</ingAp>
+				<ingAp mes="12">
+					<obraSoc>3581.87</obraSoc>
+					<segSoc>8127.51</segSoc>
+					<sind>2125.57</sind>
+					<ganBrut>119395.67</ganBrut>
+					<retGan>0</retGan>
+					<retribNoHab>0</retribNoHab>
+					<sac>0</sac>
+					<horasExtGr>0</horasExtGr>
+				</ingAp>
+			</ingresosAportes>
+		</empEnt>
+	</ganLiqOtrosEmpEnt>
+	<deducciones>
+		<deduccion tipo="1">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>33333333339</nroDoc>
+			<denominacion>Empresa ZZ SRL</denominacion>
+			<descBasica>33333333339 - Empresa ZZ SRL</descBasica>
+			<montoTotal>600</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="4" montoMensual="150"/>
+			</periodos>
+		</deduccion>
+		<deduccion tipo="1">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30222222229</nroDoc>
+			<denominacion>Empresa WWW SA</denominacion>
+			<descBasica>Empresa WWW SA</descBasica>
+			<montoTotal>600</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="4" montoMensual="150"/>
+			</periodos>
+		</deduccion>
+		<deduccion tipo="2">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>33333333339</nroDoc>
+			<denominacion>Empresa ZZ SRL</denominacion>
+			<descBasica>33333333339 - Empresa ZZ SRL</descBasica>
+			<montoTotal>450</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="3" montoMensual="150"/>
+			</periodos>
+		</deduccion>
+		<deduccion tipo="3">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30222222229</nroDoc>
+			<denominacion>Empresa WWW SA</denominacion>
+			<descBasica>Empresa WWW SA</descBasica>
+			<montoTotal>1800</montoTotal>
+			<periodos>
+				<periodo mesDesde="11" mesHasta="11" montoMensual="1650"/>
+				<periodo mesDesde="12" mesHasta="12" montoMensual="150"/>
+			</periodos>
+		</deduccion>
+		<deduccion tipo="3">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>33333333339</nroDoc>
+			<denominacion>Empresa ZZ SRL</denominacion>
+			<descBasica>33333333339 - Empresa ZZ SRL</descBasica>
+			<montoTotal>1500</montoTotal>
+			<periodos>
+				<periodo mesDesde="11" mesHasta="11" montoMensual="1500"/>
+			</periodos>
+		</deduccion>
+		<deduccion tipo="4">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30555555551</nroDoc>
+			<denominacion>Empresa XX SA</denominacion>
+			<descBasica>30555555551 - Empresa XX SA</descBasica>
+			<montoTotal>300</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="2" montoMensual="150"/>
+			</periodos>
+		</deduccion>
+		<deduccion tipo="4">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>33333333339</nroDoc>
+			<denominacion>Empresa ZZ SRL</denominacion>
+			<descBasica>33333333339 - Empresa ZZ SRL</descBasica>
+			<montoTotal>300</montoTotal>
+			<periodos>
+				<periodo mesDesde="8" mesHasta="9" montoMensual="150"/>28
+			</periodos>
+		</deduccion>
+		<deduccion tipo="5">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30555555551</nroDoc>
+			<denominacion>Empresa XX SA</denominacion>
+			<descBasica>Empresa XX SA</descBasica>
+			<montoTotal>1500</montoTotal>
+			<periodos>
+				<periodo mesDesde="11" mesHasta="11" montoMensual="1500.00"/>
+			</periodos>
+		</deduccion>
+		<deduccion tipo="5">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30222222229</nroDoc>
+			<denominacion>Empresa WWW SA</denominacion>
+			<descBasica>30222222229 - Empresa WWW SA</descBasica>
+			<montoTotal>1500</montoTotal>
+			<periodos>
+				<periodo mesDesde="10" mesHasta="10" montoMensual="1500.00"/>
+			</periodos>
+		</deduccion>
+		<deduccion tipo="7">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>33333333339</nroDoc>
+			<denominacion>Empresa ZZ SRL</denominacion>
+			<descBasica>33333333339 - Empresa ZZ SRL</descBasica>
+			<montoTotal>255.2</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="1" montoMensual="255.20"/>
+			</periodos>
+		</deduccion>
+		<deduccion tipo="7">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30555555551</nroDoc>
+			<denominacion>Empresa XX SA</denominacion>
+			<descBasica>30555555551 - Empresa XX SA</descBasica>
+			<montoTotal>236</montoTotal>
+			<periodos>
+				<periodo mesDesde="7" mesHasta="7" montoMensual="236.00"/>
+			</periodos>
+		</deduccion>
+		<deduccion tipo="8">
+			<tipoDoc>86</tipoDoc>
+			<nroDoc>30222222229</nroDoc>
+			<denominacion>Empresa WWW SA</denominacion>
+			<descBasica>30222222229 - Empresa WWW SA</descBasica>
+			<montoTotal>9900</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="6" montoMensual="1650.00"/>
+			</periodos>
+		</deduccion>
+		<deduccion tipo="9">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>33333333339</nroDoc>
+			<denominacion>Empresa ZZ SRL</denominacion>
+			<descBasica>33333333339 - Empresa ZZ SRL</descBasica>
+			<descAdicional>05/12/2012 - Monto de Capital Social: $ 1.500,00 - Monto de Fondo de Riesgo: $ 12,00</descAdicional>
+			<montoTotal>1512</montoTotal>
+			<detalles>
+				<detalle nombre="fechaAporte" valor="2012-12-05"/>
+				<detalle nombre="montoCapSocial" valor="1500"/>
+				<detalle nombre="montoFondoRiesgo" valor="12"/>
+			</detalles>
+		</deduccion>
+		<deduccion tipo="9">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30555555551</nroDoc>
+			<denominacion>Empresa XX SA</denominacion>
+			<descBasica>30555555551 - Empresa XX SA</descBasica>29
+			<descAdicional>11/12/2012 - Monto de Capital Social: $ 5.600,00 - Monto de Fondo de Riesgo: $ 100,00</descAdicional>
+			<montoTotal>5700</montoTotal>
+			<detalles>
+				<detalle nombre="fechaAporte" valor="2012-12-11"/>
+				<detalle nombre="montoCapSocial" valor="5600"/>
+				<detalle nombre="montoFondoRiesgo" valor="100"/>
+			</detalles>
+		</deduccion>
+	</deducciones>
+	<retPerPagos>
+		<retPerPago tipo="6">
+			<descBasica>CBU ******************5059</descBasica>
+			<montoTotal>756.45</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="1" montoMensual="288"/>
+				<periodo mesDesde="4" mesHasta="4" montoMensual="468.45"/>
+			</periodos>
+			<detalles>
+				<detalle nombre="cbu" valor="******************5059"/>
+			</detalles>
+		</retPerPago>
+		<retPerPago tipo="13">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30222222229</nroDoc>
+			<denominacion>Empresa WWW SA</denominacion>
+			<descBasica>30222222229 - Empresa WWW SA</descBasica>
+			<descAdicional>Tarjeta de Débito - CBU ******************5059</descAdicional>
+			<montoTotal>4047.46</montoTotal>
+			<periodos>
+				<periodo mesDesde="9" mesHasta="9" montoMensual="123.56"/>
+				<periodo mesDesde="10" mesHasta="10" montoMensual="3467.9"/>
+				<periodo mesDesde="12" mesHasta="12" montoMensual="456"/>
+			</periodos>
+			<detalles>
+				<detalle nombre="tipoTarjeta" valor="2"/>
+				<detalle nombre="cbu" valor="******************5059"/>
+			</detalles>
+		</retPerPago>
+		<retPerPago tipo="13">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30555555551</nroDoc>
+			<denominacion>Empresa XX SA</denominacion>
+			<descBasica>30555555551 - Empresa XX SA</descBasica>
+			<descAdicional>Tarjeta de Crédito/Compra - Visa - Nro. ************3592</descAdicional>
+			<montoTotal>1523.67</montoTotal>
+			<periodos>
+				<periodo mesDesde="10" mesHasta="10" montoMensual="1500"/>
+				<periodo mesDesde="12" mesHasta="12" montoMensual="23.67"/>
+			</periodos>
+			<detalles>
+				<detalle nombre="tipoTarjeta" valor="1"/>
+				<detalle nombre="idTarjeta" valor="2"/>
+				<detalle nombre="descripcionTarjeta" valor="Visa"/>
+				<detalle nombre="nroTarjeta" valor="************3592"/>
+			</detalles>
+		</retPerPago>
+	</retPerPagos>
+	<datosAdicionales>
+		<datoAdicional nombre="trabRegPatagonica" mesDesde="1" mesHasta="6" valor="S"/>
+		<datoAdicional nombre="trabRegPatagonica" mesDesde="7" mesHasta="8" valor="N"/>
+	</datosAdicionales>
+</presentacion>

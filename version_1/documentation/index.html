@@ -1,0 +1,181 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Documentación | PYT - Deducción especial incrementada</title>
+    <link rel="stylesheet" href="assets/css/app.css" />
+    <script src="assets/js/vendor/modernizr.js"></script>
+  </head>
+  <body>
+    
+
+	<div class="row">
+		<div class="small-3 large-3 columns">
+			<ul class="side-nav">
+				<li><a href="#sec1">01. Introdución</a></li>
+				<li><a href="#sec2">02. Importación</a></li>
+				<li><a href="#sec3">03. Visualización de la información</a></li>
+				<li><a href="#sec4">04. Divisores</a></li>
+				<li><a href="#sec5">05. Proceso de liquidación</a></li>
+				<li><a href="#sec6">06. Errores y logs</a></li>
+				<li><a href="#sec7">07. Configuración</a></li>
+				<li><a href="#sec8">08. Borra registros BBDD</a></li>
+			</ul>
+		</div>
+		<div class="small-9 large-9 columns">
+
+			<h1>Payroll tools - Deducción especial incrementada</h1>
+
+			<h2 id="sec1">01. Introdución</h2>
+			<p>
+				"Payroll tools - Deducción especial incrementada" es una herramienta de uso sencillo,
+				<br>que permite recalcular, o calcular, las deducciones especiales que se introdujeron 
+				<br> con la resolución general 5008/2021.
+			</p>
+			<p>
+				Para eso, el usuario debera importar al sistema, a traves de archivos extensión "xlsx" y
+				<br> desde los mismos formularios 572, la información necesaria para que el sistema realice 
+				<br> la liquidación correspondiente.
+			</p>
+			<p>
+				Asimismo, cabe destacar la maleabilidad que ofrece nuestro software. Permitiendo al usuario, 
+				<br>parametrizar las deducciones personales, como los valores para el cálculo de la “deducción especial 
+				<br>incrementada primera parte del penúltimo párrafo del inciso c) del artículo 30 de la ley del gravamen”.
+			</p>
+			<p>
+				También, para el calculo del promedio bruto mensual, nos permite ingresar el divisor en el caso de que exista un caso en el que el usuario quiera tratar de forma distinta.
+			</p>
+			<p>
+				Finalmente, vale aclarar, que la app soporta los valores correspondientes a la resolución 5008/2021, 5076/2021 y a la actualización RIPTE valido para el periodo 2022.
+			</p>
+			<hr>
+
+			<h2 id="sec2">02. Importación</h2>
+			
+			<h3>Empleados</h3>
+			<p>
+				El primer paso para generar la liquidación de las deducciones, es importar la información correspondiente a los empleados. Para eso, se tiene que contar con los siguientes datos: legajo, cuil, nombre y apellido y fecha de ingreso.
+			</p>
+			<p>
+				Todos los datos solicitados, van a ser utilizados en procesos posteriores de importación o, también, en el mismo proceso de liquidación.
+			</p>
+			<p>
+				El archivo que se quiere importar, debe de cumplir con ciertos requisitos. Por eso, para que la tarea sea mas sencilla, dentro de la carpeta de instalación del programa, se podrá encontrar todos los modelos necesarios para realizar esta tarea.
+			</p>
+			
+			<h3>Sueldos brutos y deducciones</h3>
+			<p>
+				Los importes brutos mensuales, como las deducciones correspondientes, se suben con el mismo formato. El usuario deberá de tener la información sobre el legajo, nombre y apellido, año, mes e importe del empleado y, luego, ingresarla al archivo a subir.
+			</p>
+			<p>
+				Para que el sistema tome como valida la información ingresada, primero, el empleado debe estar cargado previamente. Por eso, es importante realizar la importación de empleados primero.
+			</p>
+			<p>
+				El importe, debe ser la sumatoria total de haberes, o deducciones (validas para el impuesto), validas para el mes que se quiera calcular. La salvedad, se produce en los meses en donde se liquide el SAC, donde el importe y las deducciones correspondientes al mismo, no deben ser tenidas en cuenta a la hora de realizar la subida de la información.
+			</p>
+			<h3>Cargas de familia</h3>
+			<p>
+				El procedimiento para realizar la importación de las deducciones correspondientes a cargas de familia, se puede realizar mediante dos vias. La primera, es tomando la información directamente desde los propios formularios 572 (siradig). Para eso, el usuario, deberá de contar con los mismos en formato xml. Luego, indicara al sistema en que carpeta los tiene alojados y se levantara toda la información que estos posean.
+			</p>
+			<p>
+				La segunda opción, es mediante un archivo xlsx. Para esto, el usuario deberá de completar la información en dicho archivo y el sistema utilizará los datos para el posterior cálculo de las deducciones.
+			</p>
+			<h3>Ganancias correspondientes a otros empleadores</h3>
+			<p>
+				Al igual que con las cargas de familia, el sistema permite que la importación de la información se realice mediante los formularios 572 y archivos xlsx.
+			</p>
+			<hr>
+
+			<h2 id="sec3">03. Visualización de la información</h2>
+			<p>
+				En el menú ver, el usuario podrá visualizar toda la información importada y generada por el sistema. 
+			</p>
+			<p>
+				Dentro de los formularios de empleados, sueldos brutos, deducciones, cargas de familia, ganancias de otros empleadores y divisores, se podrá modificar la información dando click al botón de ver.
+			</p>
+			<p>
+				Para el formulario de empleados, podremos modificar la información correspondiente al CUIL, nombre y apellido u la fecha de ingreso. Sin embargo, no podremos modificar el número de legajo. Si se opta por eliminar al empleado de la base de datos, esta operación borrara toda la información que exista en el sistema relacionada al legajo en cuestión.
+			</p>
+			<p>
+				Los formularios de remuneraciones y deducciones, permite ver la información por mes. Lo cual, facilita la tarea en caso de querer modificar un registro especifico de un empleado. De igual forma, si el usuario da click sobre el botón eliminar, esta acción borrara todos los datos del legajo correspondientes a las remuneraciones, o deducciones. Dependiendo del formulario que se haya ingresado. 
+			</p>
+			<p>
+				Por último, en los formularios de cargas de familia y ganancias de otros empleadores, se podrán ver los registros, modificarlos y eliminarlos, pero de forma individual.
+			</p>
+			<hr>
+
+			<h2 id="sec4">04. Divisores</h2>
+			<p>
+				La función de los divisores es permitir al usuario decidir, para un mes y año especifico, cual es el divisor para el promedio bruto. Por ejemplo, si tenemos un empleado al que se quiera modificar la cantidad de meses por el cual se realiza la división para el promedio bruto mensual, se puede hacer. Para esto, se debe subir un archivo (ver carpeta templates) con la información requerida.
+			</p>
+			<hr>
+
+			<h2 id="sec5">05. Proceso de liquidación</h2>
+			<p>
+				El proceso de liquidación se consta de dos pasos. El primero consta del calculo de los promedios brutos. Para eso debemos ingresar al formulario, del mismo nombre, dentro del menú ejecutar. Dentro de él, debemos seleccionar el año, mes de inicio y fin y el rango de empleados a liquidar. 
+			</p>
+			<p>
+				El segundo paso, es el calculo de las deducciones incrementadas. Dentro del menú ejecutar, debemos ingresar a la opción “Calculo de deducciones”. Los datos a seleccionar serán los mismos que en paso anterior.
+			</p>
+			<hr>
+
+			<h2 id="sec6">06. Errores y logs</h2>
+			<p>
+				Dentro del proceso de importación, se pueden generar errores, lo cual hace que la información que se quiera subir al sistema no lo haga. Sin embargo, el usuario podrá acceder a los logs correspondientes al proceso ejecutado. 
+			</p>
+			<p>
+				En la carpeta de instalación del programa, dentro de la carpeta logs, se encuentran los logs generados.
+			</p>
+			<hr>
+
+			<h2 id="sec7">07. Configuración</h2>
+			<h3>Deducciones personales</h3>
+			<p>
+				Dentro del menú configuración, pueden accederse a distintas opciones. 
+			</p>
+			<p>	
+				La primera, es la parametrización de las deducciones personales. Es decir:
+			</p>
+			<ul>
+				<li>Cónyuge / Unión convivencial.</li>
+				<li>Hijo.</li>
+				<li>Hijo incapacitado para el trabajo.</li>
+				<li>Ganancias no imponibles.</li>
+				<li>Deducción especial.</li>
+			</ul>
+			<p>
+				El usuario, podra ingresar los valores para los años 2021 y 2022 de dichas deducciones.
+			</p>
+			<h3>Deducciones segunda parte</h3>
+			<p>
+				Como sabemos, la “Deducción Especial Incrementada Primera parte del penúltimo párrafo del inciso c) del artículo 30 de la ley del gravamen” se calcula dentro de ciertos rangos. Payroll tools permite configurar los mismos. Si bien los mismos vienen cargados de forma predefinida en el sistema, el usuario podrá modificar los mismos ya sea, de forma individual o de manera masiva. 
+			</p>
+			<p>
+				La primer opción, es decir, la modificación individual de un rango, se realiza seleccionando el dato en cuestión y luego presionando el botón ver. Ahí podremos modificar o eliminar el valor.
+			</p>
+			<p>
+				La segunda opción, es mediante una carga masiva. Este procedimiento, borrara toda la información que contenga el sistema sobre la resolución deseada. Por lo cual, se recomienda cuidado al ejecutar este proceso.
+			</p>
+			<h3>Configuración ganancias otros empleadores</h3>
+			<p>
+				Mediante esta opción, se puede configurar cuales son los ítems correspondientes a ganancias de otros empleadores que queremos tomar para que sumen a la hora de calcular, tanto el promedio bruto mensual, como las deducciones espaciales incrementadas. 
+			</p>
+
+			<hr>
+
+			<h2 id="sec8">08. Borra registros BBDD</h2>
+			<p>
+				Con esta opción podremos elegir, de ser necesario, si queremos borrar la información que contenga un item de nuestra base de datos. Por ejemplo, si necesitaramos importar nuevamente los datos correspondientes a los salarios brutos, seleccionaríamos la tabla remuneraciones y listo, toda la información guardada se eliminaría.
+			</p>
+		</div>
+ 	</div>
+
+    
+    <script src="assets/js/vendor/jquery.js"></script>
+    <script src="assets/js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>
