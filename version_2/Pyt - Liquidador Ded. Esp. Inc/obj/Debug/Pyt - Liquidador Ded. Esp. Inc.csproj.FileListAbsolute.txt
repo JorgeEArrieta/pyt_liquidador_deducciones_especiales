@@ -1,0 +1,21 @@
+C:\Proyectos\Ganancias - Liquidación primer y segundo párrafo\version_2\Pyt - Liquidador Ded. Esp. Inc\bin\Debug\DataBase.mdf
+C:\Proyectos\Ganancias - Liquidación primer y segundo párrafo\version_2\Pyt - Liquidador Ded. Esp. Inc\bin\Debug\DataBase_log.ldf
+C:\Proyectos\Ganancias - Liquidación primer y segundo párrafo\version_2\Pyt - Liquidador Ded. Esp. Inc\bin\Debug\Pyt___Liquidador_Ded.Esp.Inc.exe.config
+C:\Proyectos\Ganancias - Liquidación primer y segundo párrafo\version_2\Pyt - Liquidador Ded. Esp. Inc\bin\Debug\Pyt___Liquidador_Ded.Esp.Inc.exe
+C:\Proyectos\Ganancias - Liquidación primer y segundo párrafo\version_2\Pyt - Liquidador Ded. Esp. Inc\bin\Debug\Pyt___Liquidador_Ded.Esp.Inc.pdb
+C:\Proyectos\Ganancias - Liquidación primer y segundo párrafo\version_2\Pyt - Liquidador Ded. Esp. Inc\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Proyectos\Ganancias - Liquidación primer y segundo párrafo\version_2\Pyt - Liquidador Ded. Esp. Inc\bin\Debug\SpreadsheetLight.dll
+C:\Proyectos\Ganancias - Liquidación primer y segundo párrafo\version_2\Pyt - Liquidador Ded. Esp. Inc\bin\Debug\System.Drawing.Common.dll
+C:\Proyectos\Ganancias - Liquidación primer y segundo párrafo\version_2\Pyt - Liquidador Ded. Esp. Inc\bin\Debug\System.IO.Packaging.dll
+C:\Proyectos\Ganancias - Liquidación primer y segundo párrafo\version_2\Pyt - Liquidador Ded. Esp. Inc\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Proyectos\Ganancias - Liquidación primer y segundo párrafo\version_2\Pyt - Liquidador Ded. Esp. Inc\bin\Debug\SpreadsheetLight.xml
+C:\Proyectos\Ganancias - Liquidación primer y segundo párrafo\version_2\Pyt - Liquidador Ded. Esp. Inc\bin\Debug\System.Drawing.Common.xml
+C:\Proyectos\Ganancias - Liquidación primer y segundo párrafo\version_2\Pyt - Liquidador Ded. Esp. Inc\bin\Debug\System.IO.Packaging.xml
+C:\Proyectos\Ganancias - Liquidación primer y segundo párrafo\version_2\Pyt - Liquidador Ded. Esp. Inc\obj\Debug\Pyt - Liquidador Ded. Esp. Inc.csproj.AssemblyReference.cache
+C:\Proyectos\Ganancias - Liquidación primer y segundo párrafo\version_2\Pyt - Liquidador Ded. Esp. Inc\obj\Debug\Pyt - Liquidador Ded. Esp. Inc.csproj.SuggestedBindingRedirects.cache
+C:\Proyectos\Ganancias - Liquidación primer y segundo párrafo\version_2\Pyt - Liquidador Ded. Esp. Inc\obj\Debug\Pyt___Liquidador_Ded.Esp.Inc.Properties.Resources.resources
+C:\Proyectos\Ganancias - Liquidación primer y segundo párrafo\version_2\Pyt - Liquidador Ded. Esp. Inc\obj\Debug\Pyt - Liquidador Ded. Esp. Inc.csproj.GenerateResource.cache
+C:\Proyectos\Ganancias - Liquidación primer y segundo párrafo\version_2\Pyt - Liquidador Ded. Esp. Inc\obj\Debug\Pyt - Liquidador Ded. Esp. Inc.csproj.CoreCompileInputs.cache
+C:\Proyectos\Ganancias - Liquidación primer y segundo párrafo\version_2\Pyt - Liquidador Ded. Esp. Inc\obj\Debug\Pyt - Liquidador Ded. Esp. Inc.csproj.CopyComplete
+C:\Proyectos\Ganancias - Liquidación primer y segundo párrafo\version_2\Pyt - Liquidador Ded. Esp. Inc\obj\Debug\Pyt___Liquidador_Ded.Esp.Inc.exe
+C:\Proyectos\Ganancias - Liquidación primer y segundo párrafo\version_2\Pyt - Liquidador Ded. Esp. Inc\obj\Debug\Pyt___Liquidador_Ded.Esp.Inc.pdb
